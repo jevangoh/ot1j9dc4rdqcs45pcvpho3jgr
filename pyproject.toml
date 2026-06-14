@@ -70,10 +70,6 @@ nodejs = ">=24,<25.3"
 markdownlint-cli2 = ">=0.20.0,<0.21"
 
 [tool.pixi.feature.dev_lint_and_format.tasks]
-# lint_documents = "npx --yes markdownlint-cli2"
-# format_documents = "npx --yes markdownlint-cli2 --fix"
-# lint_all_documents = "npx --yes markdownlint-cli2 '**/*.md'"
-# format_all_documents = "npx --yes markdownlint-cli2 --fix '**/*.md'"
 lint_documents = "prettier --check --ignore-unknown"
 format_documents = "prettier --write --ignore-unknown"
 lint_all_documents = "prettier --check . --ignore-unknown"
