@@ -208,7 +208,6 @@ environments:
         - conda: https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-9.0.0-pyhcf101f3_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/jinja2-3.1.6-pyhcf101f3_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/markdown-3.10.2-pyhcf101f3_0.conda
-        - conda: https://conda.anaconda.org/conda-forge/noarch/markdownlint-cli2-0.20.0-h92b4e83_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mergedeep-1.3.4-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-1.6.1-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-get-deps-0.2.2-pyhd8ed1ab_0.conda
@@ -312,7 +311,6 @@ environments:
         - conda: https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-9.0.0-pyhcf101f3_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/jinja2-3.1.6-pyhcf101f3_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/markdown-3.10.2-pyhcf101f3_0.conda
-        - conda: https://conda.anaconda.org/conda-forge/noarch/markdownlint-cli2-0.20.0-h92b4e83_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mergedeep-1.3.4-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-1.6.1-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-get-deps-0.2.2-pyhd8ed1ab_0.conda
@@ -369,7 +367,6 @@ environments:
         - conda: https://conda.anaconda.org/conda-forge/noarch/importlib-metadata-9.0.0-pyhcf101f3_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/jinja2-3.1.6-pyhcf101f3_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/markdown-3.10.2-pyhcf101f3_0.conda
-        - conda: https://conda.anaconda.org/conda-forge/noarch/markdownlint-cli2-0.20.0-h92b4e83_0.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mergedeep-1.3.4-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-1.6.1-pyhd8ed1ab_1.conda
         - conda: https://conda.anaconda.org/conda-forge/noarch/mkdocs-get-deps-0.2.2-pyhd8ed1ab_0.conda
@@ -1822,16 +1819,6 @@ packages:
       - pkg:pypi/markdown?source=hash-mapping
     size: 85893
     timestamp: 1770694658918
-  - conda: https://conda.anaconda.org/conda-forge/noarch/markdownlint-cli2-0.20.0-h92b4e83_0.conda
-    sha256: 79a4325ed1a2173b5c4a1e2443eb070951306203d456ceb37c2759c8178729a3
-    md5: 89e949ec71289e6f8ec2f1f73d38d5d5
-    depends:
-      - nodejs
-    license: MIT
-    license_family: MIT
-    purls: []
-    size: 1939609
-    timestamp: 1765119571656
   - conda: https://conda.anaconda.org/conda-forge/noarch/mergedeep-1.3.4-pyhd8ed1ab_1.conda
     sha256: e5b555fd638334a253d83df14e3c913ef8ce10100090e17fd6fb8e752d36f95d
     md5: d9a8fc1f01deae61735c88ec242e855c
