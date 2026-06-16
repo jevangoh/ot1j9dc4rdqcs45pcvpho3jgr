@@ -61,6 +61,7 @@ init = """
 mkdocs = ">=1.6.1,<2"
 mkdocs-material = ">=9.7.6,<10"
 pymdown-extensions = ">=10.20,<11"
+
 [tool.pixi.feature.dev_build.tasks]
 build = "mkdocs build --config-file mkdocs.yaml"
 
@@ -80,11 +81,6 @@ format_all_documents = "prettier --write . --ignore-unknown"
 mkdocs = ">=1.6.1,<2"
 mkdocs-material = ">=9.7.6,<10"
 pymdown-extensions = ">=10.20,<11"
-mkdocs-monorepo-plugin = ">=1.1.2,<2"
 
 [tool.pixi.feature.dev_docs.tasks]
 build_docs = "mkdocs build --config-file mkdocs.yaml"
-
-[dependency-groups]
-dev_docs = ["mike>=2.2.0,<3"]
-
