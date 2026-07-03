@@ -84,6 +84,3 @@ pymdown-extensions = ">=10.20,<11"
 [tool.pixi.feature.dev_docs.tasks]
 build_docs = "mkdocs build --config-file mkdocs.yaml"
 
-[dependency-groups]
-dev_docs = ["mike>=2.2.0,<3"]
-
