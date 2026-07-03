@@ -6,7 +6,6 @@ name = "ot1j9dc4rdqcs45pcvpho3jgr"
 version = "0.0.0"
 
 requires-python = ">= 3.11"
-dependencies = ["copier>=9.14.3,<10"]
 
 authors = [{name = "Jevan Goh", email = "javerngoh@gmail.com"}]
 
