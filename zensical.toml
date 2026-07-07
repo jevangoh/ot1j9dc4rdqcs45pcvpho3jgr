@@ -8,7 +8,8 @@ language = "en"
 docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
 
 repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
-
+repo = "fontawesome/brands/github"
+edit_uri = "ot1j9dc4rdqcs45pcvpho3jgr/"
 # --- Theme ---
 [project.theme]
 features = [
