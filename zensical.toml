@@ -3,6 +3,7 @@ site_name = "ot1j9dc4rdqcs45pcvpho3jgr"
 site_url = "https://ot1j9dc4rdqcs45pcvpho3jgr.readthedocs.io/en/latest/"
 site_description = ""
 site_author = "Jevan Goh"
+language = "en"
 
 docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
 
@@ -23,16 +24,16 @@ toggle.name = "Switch to light mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-primary = "indigo"
-accent = "indigo"
+primary = "blue"
+accent = "light blue"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "brown"
-accent = "orange"
+primary = "blue"
+accent = "light blue"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
