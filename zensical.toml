@@ -7,7 +7,7 @@ site_author = "Jevan Goh"
 docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
 
 # --- Theme ---
-[theme]
+[project.theme]
 features = ["navigation.indexes"]
 
 [[project.theme.palette]]
