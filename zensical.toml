@@ -6,9 +6,14 @@ site_author = "Jevan Goh"
 
 docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
 
+repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
+
 # --- Theme ---
 [project.theme]
-features = ["navigation.indexes"]
+features = [
+  "navigation.indexes",
+  "content.action.view"
+]
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
@@ -26,8 +31,8 @@ toggle.name = "Switch to dark mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "gray"
-accent = "blue"
+primary = "grey"
+accent = "light blue"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
