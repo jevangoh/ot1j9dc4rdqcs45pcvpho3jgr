@@ -31,8 +31,8 @@ toggle.name = "Switch to dark mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
-primary = "grey"
-accent = "light blue"
+primary = "brown"
+accent = "brown"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
 
