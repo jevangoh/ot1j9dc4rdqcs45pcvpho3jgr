@@ -25,6 +25,9 @@ features = [
   "navigation.instant.prefetch",
   "navigation.path",
   "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
   "content.action.view"
 ]
 
