@@ -5,11 +5,11 @@ site_description = ""
 site_author = "Jevan Goh"
 # language = "en"
 
-repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
+# repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
 # edit_uri = "tree/main/ot1j9dc4rdqcs45pcvpho3jgr/"
 
 # --- Theme ---
-[project.theme]
+# [project.theme]
 # features = [
 #   "announce.dismiss",
 #   "content.code.annotate",
