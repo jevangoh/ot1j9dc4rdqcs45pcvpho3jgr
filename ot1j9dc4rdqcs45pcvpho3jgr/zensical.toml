@@ -29,8 +29,8 @@ repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
 #   "content.action.view"
 # ]
 
-[project.theme.icon]
-repo = "fontawesome/brands/git-alt"
+# [project.theme.icon]
+# repo = "fontawesome/brands/git-alt"
 
 [[project.theme.palette]]
 media = "(prefers-color-scheme)"
