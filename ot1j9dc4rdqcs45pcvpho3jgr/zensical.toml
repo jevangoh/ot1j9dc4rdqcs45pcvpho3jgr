@@ -4,7 +4,7 @@ site_url = "https://ywbe9tuag740j1x6ezhxvqb7f.readthedocs.io/en/latest/"
 site_description = ""
 site_author = "Jevan Goh"
 
-docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
+docs_dir = "."
 # language = "en"
 
 # repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
