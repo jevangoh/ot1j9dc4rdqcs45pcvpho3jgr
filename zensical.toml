@@ -1,11 +1,11 @@
 [project]
-site_name = " "
+site_name = "ywbe9tuag740j1x6ezhxvqb7f"
 site_url = "https://ywbe9tuag740j1x6ezhxvqb7f.readthedocs.io/en/latest/"
 site_description = ""
 site_author = "Jevan Goh"
-language = "en"
 
 docs_dir = "ot1j9dc4rdqcs45pcvpho3jgr"
+language = "en"
 
 repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
 edit_uri = "tree/main/ot1j9dc4rdqcs45pcvpho3jgr/"
@@ -60,4 +60,44 @@ toggle.name = "Switch to system preference"
 Home = "index.md"
 
 [[nav]]
-Labels = "labels.md"
+Glossary = "glossary.md"
+
+[[nav]]
+"User Guide" = [
+    "user_guide/index.md",
+    { "Pixi (preferred)" = "user_guide/pixi_usage.md" },
+    { "Uv" = "user_guide/uv_usage.md" },
+    { "Pip" = "user_guide/pip_usage.md" }
+]
+
+[[nav]]
+"Help and Support" = [
+    "help_and_support/index.md",
+    { "Ticketing" = "help_and_support/ticketing.md" },
+    { "Labels" = "help_and_support/labels.md" }
+]
+
+[[nav]]
+"Development and Community" = [
+    "development_and_community/index.md",
+    { "Contributing" = "development_and_community/contributing.md" },
+    { "Maintaining" = "development_and_community/maintaining.md" },
+    { "Contributors" = "development_and_community/contributors.md" }
+]
+
+[[nav]]
+"Governance and Legal" = [
+    "governance_and_legal/index.md",
+    { "Governance" = "governance_and_legal/governance.md" },
+    { "Code of Conduct" = "governance_and_legal/code_of_conduct.md" },
+    { "Security Policy" = "governance_and_legal/security.md" }
+]
+
+# --- Validation ---
+[validation.nav]
+not_found = "info"
+omitted_files = "info"
+
+[validation.links]
+not_found = "info"
+
