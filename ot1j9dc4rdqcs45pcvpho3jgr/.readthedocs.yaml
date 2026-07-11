@@ -7,4 +7,4 @@ build:
     - export PATH="$HOME/.pixi/bin:$PATH" && pixi install -e dev
     - export PATH="$HOME/.pixi/bin:$PATH" && pixi run -e dev zensical build --config-file ot1j9dc4rdqcs45pcvpho3jgr/zensical.toml
     - mkdir -p $READTHEDOCS_OUTPUT/html/
-    - cp --recursive ot1j9dc4rdqcs45pcvpho3jgr/site/* $READTHEDOCS_OUTPUT/html/
+    - cp --recursive site/* $READTHEDOCS_OUTPUT/html/
