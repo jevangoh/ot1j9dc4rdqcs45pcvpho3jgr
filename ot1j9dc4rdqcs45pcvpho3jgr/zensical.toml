@@ -92,10 +92,10 @@ Glossary = "glossary.md"
 ]
 
 # --- Validation ---
-[validation.nav]
-not_found = "info"
-omitted_files = "info"
+# [validation.nav]
+# not_found = "info"
+# omitted_files = "info"
 
-[validation.links]
-not_found = "info"
+# [validation.links]
+# not_found = "info"
 
