@@ -1,7 +1,7 @@
 [project]
 site_name = "ywbe9tuag740j1x6ezhxvqb7f"
 site_url = "https://ywbe9tuag740j1x6ezhxvqb7f.readthedocs.io/en/latest/"
-site_description = ""
+# site_description = ""
 site_author = "Jevan Goh"
 language = "en"
 
@@ -10,24 +10,24 @@ edit_uri = "tree/main/ot1j9dc4rdqcs45pcvpho3jgr/"
 
 # --- Theme ---
 [project.theme]
-# features = [
-#   "announce.dismiss",
-#   "content.code.annotate",
-#   "content.code.copy",
-#   "content.code.select",
-#   "content.footnote.tooltips",
-#   "content.tooltips",
-#   "navigation.footer",
-#   "navigation.indexes",
-#   "navigation.instant",
-#   "navigation.instant.prefetch",
-#   "navigation.path",
-#   "navigation.sections",
-#   "navigation.top",
-#   "navigation.tracking",
-#   "search.highlight",
-#   "content.action.view"
-# ]
+features = [
+  "announce.dismiss",
+  "content.code.annotate",
+  "content.code.copy",
+  "content.code.select",
+  "content.footnote.tooltips",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+  "content.action.view"
+]
 
 [project.theme.icon]
 repo = "fontawesome/brands/git-alt"
