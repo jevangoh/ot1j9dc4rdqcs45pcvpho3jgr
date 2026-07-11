@@ -1,0 +1,7 @@
+div[data-ea-publisher] {
+  --ea-background: #f4f5f7 !important;
+}
+
+div[data-ea-publisher].dark {
+  --ea-dark-background: #1e2530 !important;
+}
