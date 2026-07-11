@@ -5,7 +5,7 @@
 div[data-ea-publisher].dark {
   --ea-dark-background: #1e2530 !important;
 } */
-:root {
-  /* This changes the main container background */
-  --ethical-background-color: #1e2530 !important;
+
+.ethical-ads {
+  background-color: #1e2530 !important;
 }
