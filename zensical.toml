@@ -45,7 +45,7 @@ toggle.name = "Switch to light mode"
 media = "(prefers-color-scheme: light)"
 scheme = "default"
 primary = "custom"
-accent = "light blue"
+accent = "custom"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
