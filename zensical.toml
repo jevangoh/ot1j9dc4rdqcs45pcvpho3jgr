@@ -10,7 +10,7 @@ language = "en"
 repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
 edit_uri = "tree/main/ot1j9dc4rdqcs45pcvpho3jgr/"
 
-extra_css = ["stylesheets/custom.css"]
+extra_css = ["stylesheets/colours.css"]
 
 # --- Theme ---
 [project.theme]
@@ -44,7 +44,7 @@ toggle.name = "Switch to light mode"
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
-primary = "blue"
+primary = "custom"
 accent = "light blue"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
