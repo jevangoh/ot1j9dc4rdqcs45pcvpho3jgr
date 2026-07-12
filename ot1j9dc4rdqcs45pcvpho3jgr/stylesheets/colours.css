@@ -5,6 +5,8 @@
 } */
 
 :root > * {
+  --md-bg-color: rgb(18, 17, 17);
+
   --md-primary-fg-color: rgb(62, 33, 0);
   --md-primary-fg-color--light: rgb(62, 33, 0);
   --md-primary-fg-color--dark: rgb(62, 33, 0);
