@@ -19,5 +19,5 @@ body[data-md-color-scheme="slate"] {
 }
 
 h1 {
-  color: rgb(158, 147, 133);
+  color: rgb(158, 147, 133) !important;
 }
