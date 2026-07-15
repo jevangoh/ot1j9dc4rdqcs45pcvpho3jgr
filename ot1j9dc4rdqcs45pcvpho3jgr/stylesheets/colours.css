@@ -17,3 +17,7 @@ body[data-md-color-scheme="slate"] {
   --md-bg-color: rgb(18, 17, 17) !important;
   --md-bg-color--light: rgb(26, 25, 25) !important;
 }
+
+h1 {
+  color: rgb(158, 147, 133);
+}
