@@ -5,12 +5,12 @@
 } */
 
 :root > * {
-  --md-primary-fg-color: rgb(62, 33, 0);
+  --md-primary-fg-color: rgb(48, 36, 24);
   --md-primary-fg-color--light: rgb(58, 56, 55);
   --md-primary-fg-color--dark: rgb(10, 9, 9);
 
-  --md-accent-fg-color: rgb(62, 33, 0);
-  --md-accent-fg-color--transparent: rgba(62, 33, 0, 0.15);
+  --md-accent-fg-color: rgb(118, 79, 40);
+  --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 }
 
 body[data-md-color-scheme="slate"] {
