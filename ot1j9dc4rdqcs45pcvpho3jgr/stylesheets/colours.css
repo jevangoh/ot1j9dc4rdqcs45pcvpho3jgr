@@ -13,6 +13,10 @@
   --md-default-fg-color: rgb(131, 132, 138);
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
+
+  --md-admonition-color--note: 0, 191, 255; /* Deep Sky Blue */
+  --md-admonition-color--warning: 255, 140, 0; /* Dark Orange */
+  --md-admonition-color--danger: 255, 99, 71; /* Tomato Red */
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -55,30 +59,4 @@
   p.markdown-alert-title
   svg {
   fill: rgb(158, 147, 133) !important;
-}
-
-/* ==========================================================================
-   2. TRADITIONAL ADMONITIONS SYNTAX OVERRIDE (!!! note)
-   ========================================================================== */
-
-/* The main note box wrapper */
-[data-md-color-scheme="slate"] .md-content .admonition.note,
-[data-md-color-scheme="slate"] .md-content details.note {
-  border-left-color: rgb(118, 79, 40) !important;
-  background-color: rgba(118, 79, 40, 0.15) !important;
-}
-
-/* Title bar overrides */
-[data-md-color-scheme="slate"] .md-content .admonition.note > .admonition-title,
-[data-md-color-scheme="slate"] .md-content details.note > summary {
-  color: rgb(158, 147, 133) !important;
-}
-
-/* Left-hand side accent icon */
-[data-md-color-scheme="slate"]
-  .md-content
-  .admonition.note
-  > .admonition-title::before,
-[data-md-color-scheme="slate"] .md-content details.note > summary::before {
-  background-color: rgb(158, 147, 133) !important;
 }
