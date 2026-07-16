@@ -18,7 +18,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-header {
-  background-color: rgba(18, 17, 17, 0.7);
+  background-color: rgba(118, 79, 40, 0.7);
 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px); /* Safari support */
