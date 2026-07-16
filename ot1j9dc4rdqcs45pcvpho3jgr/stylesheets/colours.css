@@ -13,11 +13,12 @@
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 }
 
-body[data-md-color-scheme="slate"] {
-  --md-bg-color: rgb(18, 17, 17) !important;
-  --md-bg-color--light: rgb(26, 25, 25) !important;
-}
+[data-md-color-scheme="slate"] {
+  /* Main dark page background */
+  --md-bg-color: rgb(18, 17, 17);
+  --md-bg-color--light: rgb(26, 25, 25);
 
-h1 {
-  color: rgb(158, 147, 133) !important;
+  /* Dark mode text colors */
+  --md-default-fg-color: rgb(158, 147, 133);
+  --md-typeset-color: rgb(158, 147, 133);
 }
