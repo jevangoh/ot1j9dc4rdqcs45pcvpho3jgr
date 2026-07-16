@@ -14,7 +14,7 @@
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
 
-  --md-admonition-color--note: 0, 191, 255;
+  --md-admonition-color--note: rgba(18, 17, 17, 0.7);
   --md-admonition-color--warning: 255, 140, 0;
   --md-admonition-color--danger: 255, 99, 71;
 }
@@ -33,30 +33,5 @@
 [data-md-color-scheme="slate"] .md-typeset h4,
 [data-md-color-scheme="slate"] .md-typeset h5,
 [data-md-color-scheme="slate"] .md-typeset h6 {
-  /* Swap this with whatever color you want your titles to be */
   color: rgb(158, 147, 133);
-}
-/* ==========================================================================
-   1. GITHUB ALERTS SYNTAX OVERRIDE (> [!NOTE])
-   ========================================================================== */
-
-/* The outer box box */
-[data-md-color-scheme="slate"] div.markdown-alert.markdown-alert-note {
-  border-left-color: rgb(118, 79, 40) !important;
-  background-color: rgba(118, 79, 40, 0.15) !important;
-}
-
-/* The label title string */
-[data-md-color-scheme="slate"]
-  div.markdown-alert.markdown-alert-note
-  p.markdown-alert-title {
-  color: rgb(158, 147, 133) !important;
-}
-
-/* The SVG shape fill */
-[data-md-color-scheme="slate"]
-  div.markdown-alert.markdown-alert-note
-  p.markdown-alert-title
-  svg {
-  fill: rgb(158, 147, 133) !important;
 }
