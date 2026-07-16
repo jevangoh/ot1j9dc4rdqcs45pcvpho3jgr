@@ -47,12 +47,7 @@
   /* Title background color / collapsible summary background */
   .md-typeset .note > .admonition-title,
   .md-typeset .note > summary {
-    background-color: rgba(
-      56,
-      189,
-      248,
-      0.1
-    ) !important; /* Tinted background */
+    background-color: rgba(18, 17, 17, 0.7) !important; /* Tinted background */
   }
 
   /* Icon color inside the title */
