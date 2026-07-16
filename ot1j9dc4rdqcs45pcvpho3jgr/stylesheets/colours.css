@@ -36,41 +36,38 @@
   color: rgb(158, 147, 133);
 }
 
-/* Targeting the Slate (Dark) Theme only */
-[data-md-color-scheme="slate"] {
-  /* --- Customize the "note" Admonition --- */
+/* --- Customize the "note" Admonition for Slate Theme --- */
+[data-md-color-scheme="slate"] .md-typeset .admonition.note,
+[data-md-color-scheme="slate"] .md-typeset details.note {
+  border-color: rgba(18, 17, 17, 0.7) !important;
+  background-color: rgba(18, 17, 17, 0.7) !important;
+  --md-admonition-bg: rgba(18, 17, 17, 0.7) !important;
+}
 
-  .md-typeset .admonition.note,
-  .md-typeset details.note {
-    border-color: rgba(18, 17, 17, 0.7) !important; /* Soft blue border */
-  }
+[data-md-color-scheme="slate"] .md-typeset .note > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .note > summary {
+  background-color: rgba(18, 17, 17, 0.7) !important;
+}
 
-  /* Title background color / collapsible summary background */
-  /*
-  .md-typeset .note > .admonition-title,
-  .md-typeset .note > summary {
-    background-color: rgba(18, 17, 17, 0.7) !important;
-  }*/
+[data-md-color-scheme="slate"] .md-typeset .note > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .note > summary::before {
+  background-color: rgba(18, 17, 17, 0.7) !important;
+}
 
-  /* Icon color inside the title */
-  .md-typeset .note > .admonition-title::before,
-  .md-typeset .note > summary::before {
-    background-color: rgba(18, 17, 17, 0.7);
-  }
+/* --- Customize the "warning" Admonition for Slate Theme --- */
+[data-md-color-scheme="slate"] .md-typeset .admonition.warning,
+[data-md-color-scheme="slate"] .md-typeset details.warning {
+  border-color: #f59e0b !important;
+  background-color: rgba(245, 158, 11, 0.05) !important;
+  --md-admonition-bg: rgba(245, 158, 11, 0.05) !important;
+}
 
-  /* --- Customize the "warning" Admonition --- */
-  .md-typeset .admonition.warning,
-  .md-typeset details.warning {
-    border-color: #f59e0b; /* Amber border */
-  }
+[data-md-color-scheme="slate"] .md-typeset .warning > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset .warning > summary {
+  background-color: rgba(245, 158, 11, 0.1) !important;
+}
 
-  .md-typeset .warning > .admonition-title,
-  .md-typeset .warning > summary {
-    background-color: rgba(245, 158, 11, 0.1) !important;
-  }
-
-  .md-typeset .warning > .admonition-title::before,
-  .md-typeset .warning > summary::before {
-    background-color: #f59e0b;
-  }
+[data-md-color-scheme="slate"] .md-typeset .warning > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset .warning > summary::before {
+  background-color: #f59e0b !important;
 }
