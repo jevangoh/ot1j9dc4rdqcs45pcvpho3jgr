@@ -13,11 +13,6 @@
   --md-default-fg-color: rgb(131, 132, 138);
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
-
-  /* --- Note Box --- */
-  --md-admonition-fg-color--note: rgba(131, 132, 138, 0.1);
-  --md-admonition-bg-color--note: rgba(131, 132, 138, 0.1);
-  --md-admonition-title-color--note: rgba(131, 132, 138, 0.1);
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -36,4 +31,24 @@
 [data-md-color-scheme="slate"] .md-typeset h6 {
   /* Swap this with whatever color you want your titles to be */
   color: rgb(158, 147, 133);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .admonition.note,
+[data-md-color-scheme="slate"] .md-typeset details.note {
+  border-left-color: rgba(
+    131,
+    132,
+    138,
+    0.5
+  ) !important; /* Your solid border */
+  /* background-color: rgba(131, 132, 138, 0.1) !important;  Your 10% transparent background fill */
+}
+
+/* 3. Target the SVG Icon specifically to match your solid text color */
+[data-md-color-scheme="slate"]
+  .md-typeset
+  .admonition.note
+  > .admonition-title::before,
+[data-md-color-scheme="slate"] .md-typeset details.note > summary::before {
+  background-color: rgba(158, 147, 133, 0.5) !important;
 }
