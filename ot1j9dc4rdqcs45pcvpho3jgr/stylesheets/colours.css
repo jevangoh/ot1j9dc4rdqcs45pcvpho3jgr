@@ -33,27 +33,59 @@
   color: rgb(158, 147, 133);
 }
 
-[data-md-color-scheme="slate"] .md-typeset .admonition.note,
-[data-md-color-scheme="slate"] .md-typeset details.note {
-  border-left-color: rgb(118, 79, 40) !important; /* Your solid border */
-  background-color: rgb(
+/* ==========================================================================
+   DARK MODE NOTE ALERTS (GitHub Syntax: > [!NOTE])
+   ========================================================================== */
+
+/* 1. Target the Outer Alert Box Box (Border and Background) */
+[data-md-color-scheme="slate"] .markdown-alert.markdown-alert-note {
+  border-left-color: rgb(118, 79, 40) !important; /* Solid brown border */
+  background-color: rgba(
     118,
     79,
-    40
-  ) !important; /* Your 10% transparent background fill */
+    40,
+    0.15
+  ) !important; /* Match your 15% transparent header tint */
 }
 
-/* 2. Target the Header Banner Text & Icon Color */
+/* 2. Target the Alert Title Text ("Note") */
+[data-md-color-scheme="slate"]
+  .markdown-alert.markdown-alert-note
+  .markdown-alert-title {
+  color: rgb(
+    158,
+    147,
+    133
+  ) !important; /* Matches your heading/primary cream color */
+}
+
+/* 3. Target the SVG Icon inside the title */
+[data-md-color-scheme="slate"]
+  .markdown-alert.markdown-alert-note
+  .markdown-alert-title
+  svg {
+  fill: rgb(158, 147, 133) !important;
+}
+
+/* ==========================================================================
+   BACKUP: STANDARD ADMONITIONS (Standard Syntax: !!! note)
+   Keeping this here just in case your parser falls back to standard blocks
+   ========================================================================== */
+[data-md-color-scheme="slate"] .md-typeset .admonition.note,
+[data-md-color-scheme="slate"] .md-typeset details.note {
+  border-left-color: rgb(118, 79, 40) !important;
+  background-color: rgba(118, 79, 40, 0.15) !important;
+}
+
 [data-md-color-scheme="slate"] .md-typeset .admonition.note > .admonition-title,
 [data-md-color-scheme="slate"] .md-typeset details.note > summary {
-  color: rgb(118, 79, 40) !important; /* Your solid title text */
+  color: rgb(158, 147, 133) !important;
 }
 
-/* 3. Target the SVG Icon specifically to match your solid text color */
 [data-md-color-scheme="slate"]
   .md-typeset
   .admonition.note
   > .admonition-title::before,
 [data-md-color-scheme="slate"] .md-typeset details.note > summary::before {
-  background-color: rgb(118, 79, 40) !important;
+  background-color: rgb(158, 147, 133) !important;
 }
