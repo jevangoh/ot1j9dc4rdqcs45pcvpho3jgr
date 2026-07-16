@@ -32,60 +32,53 @@
   /* Swap this with whatever color you want your titles to be */
   color: rgb(158, 147, 133);
 }
-
 /* ==========================================================================
-   DARK MODE NOTE ALERTS (GitHub Syntax: > [!NOTE])
+   1. GITHUB ALERTS SYNTAX OVERRIDE (> [!NOTE])
    ========================================================================== */
 
-/* 1. Target the Outer Alert Box Box (Border and Background) */
-[data-md-color-scheme="slate"] .markdown-alert.markdown-alert-note {
-  border-left-color: rgb(118, 79, 40) !important; /* Solid brown border */
-  background-color: rgba(
-    118,
-    79,
-    40,
-    0.15
-  ) !important; /* Match your 15% transparent header tint */
+/* The outer box box */
+[data-md-color-scheme="slate"] div.markdown-alert.markdown-alert-note {
+  border-left-color: rgb(118, 79, 40) !important;
+  background-color: rgba(118, 79, 40, 0.15) !important;
 }
 
-/* 2. Target the Alert Title Text ("Note") */
+/* The label title string */
 [data-md-color-scheme="slate"]
-  .markdown-alert.markdown-alert-note
-  .markdown-alert-title {
-  color: rgb(
-    158,
-    147,
-    133
-  ) !important; /* Matches your heading/primary cream color */
+  div.markdown-alert.markdown-alert-note
+  p.markdown-alert-title {
+  color: rgb(158, 147, 133) !important;
 }
 
-/* 3. Target the SVG Icon inside the title */
+/* The SVG shape fill */
 [data-md-color-scheme="slate"]
-  .markdown-alert.markdown-alert-note
-  .markdown-alert-title
+  div.markdown-alert.markdown-alert-note
+  p.markdown-alert-title
   svg {
   fill: rgb(158, 147, 133) !important;
 }
 
 /* ==========================================================================
-   BACKUP: STANDARD ADMONITIONS (Standard Syntax: !!! note)
-   Keeping this here just in case your parser falls back to standard blocks
+   2. TRADITIONAL ADMONITIONS SYNTAX OVERRIDE (!!! note)
    ========================================================================== */
-[data-md-color-scheme="slate"] .md-typeset .admonition.note,
-[data-md-color-scheme="slate"] .md-typeset details.note {
+
+/* The main note box wrapper */
+[data-md-color-scheme="slate"] .md-content .admonition.note,
+[data-md-color-scheme="slate"] .md-content details.note {
   border-left-color: rgb(118, 79, 40) !important;
   background-color: rgba(118, 79, 40, 0.15) !important;
 }
 
-[data-md-color-scheme="slate"] .md-typeset .admonition.note > .admonition-title,
-[data-md-color-scheme="slate"] .md-typeset details.note > summary {
+/* Title bar overrides */
+[data-md-color-scheme="slate"] .md-content .admonition.note > .admonition-title,
+[data-md-color-scheme="slate"] .md-content details.note > summary {
   color: rgb(158, 147, 133) !important;
 }
 
+/* Left-hand side accent icon */
 [data-md-color-scheme="slate"]
-  .md-typeset
+  .md-content
   .admonition.note
   > .admonition-title::before,
-[data-md-color-scheme="slate"] .md-typeset details.note > summary::before {
+[data-md-color-scheme="slate"] .md-content details.note > summary::before {
   background-color: rgb(158, 147, 133) !important;
 }
