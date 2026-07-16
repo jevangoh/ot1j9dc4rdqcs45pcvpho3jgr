@@ -1,7 +1,7 @@
 [data-md-color-scheme="slate"] {
   /* --- Primary --- */
-  /* --md-primary-fg-color: rgb(118, 79, 40); */
-  --md-primary-fg-color: rgb(27, 22, 19);
+  /* rgb(118, 79, 40); */
+  --md-primary-fg-color: rgb(158, 147, 133);
   --md-primary-fg-color--light: rgb(58, 56, 55);
   --md-primary-fg-color--dark: rgb(10, 9, 9);
 
@@ -15,9 +15,9 @@
   --md-typeset-color: rgb(158, 147, 133);
   --md-typeset-headline-color: rgb(158, 147, 133); */
 
-  --md-default-fg-color: rgb(131, 132, 138);
-  --md-typeset-color: rgb(131, 132, 138);
-  --md-typeset-headline-color: rgb(131, 132, 138);
+  --md-default-fg-color: rgb(145, 146, 153);
+  --md-typeset-color: rgb(145, 146, 153);
+  --md-typeset-headline-color: rgb(145, 146, 153);
 }
 
 [data-md-color-scheme="slate"] .md-header {
