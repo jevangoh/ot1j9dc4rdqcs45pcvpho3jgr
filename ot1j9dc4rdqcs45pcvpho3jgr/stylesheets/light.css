@@ -9,17 +9,19 @@
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 
   /* --- Text --- */
-  /* --md-default-fg-color: rgb(131, 132, 138);
-  --md-typeset-color: rgb(131, 132, 138);
-  --md-typeset-headline-color: rgb(131, 132, 138); */
+  --md-default-fg-color: rgb(11, 12, 15);
+  --md-typeset-color: rgb(11, 12, 15);
+  --md-typeset-headline-color: rgb(11, 12, 15);
 }
 
 [data-md-color-scheme="default"] .md-header__topic {
-  color: rgb(33, 33, 33);
+  /* color: rgb(33, 33, 33); */
+  color: rgb(11, 12, 15);
 }
 
 [data-md-color-scheme="default"] .md-header {
   background-color: rgba(118, 79, 40, 0.15);
+  color: rgb(11, 12, 15);
 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px); /* Safari support */
