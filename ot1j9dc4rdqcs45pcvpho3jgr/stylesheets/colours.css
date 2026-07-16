@@ -1,24 +1,17 @@
-/* [data-md-color-scheme="main"] {
-  --md-primary-fg-color:        rgb(58, 56, 55);
-  --md-primary-fg-color--light: rgb(58, 56, 55);
-  --md-primary-fg-color--dark:  rgb(58, 56, 55);
-} */
-
-:root > * {
+[data-md-color-scheme="slate"] {
+  /* --- Custom Primary & Accent Colors (Now Dark-Mode Only!) --- */
   --md-primary-fg-color: rgb(48, 36, 24);
   --md-primary-fg-color--light: rgb(58, 56, 55);
   --md-primary-fg-color--dark: rgb(10, 9, 9);
 
   --md-accent-fg-color: rgb(118, 79, 40);
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
-}
 
-[data-md-color-scheme="slate"] {
-  /* Main dark page background */
-  --md-bg-color: rgb(18, 17, 17);
-  --md-bg-color--light: rgb(26, 25, 25);
+  /* --- Canvas Backgrounds --- */
+  --md-default-bg-color: rgb(18, 17, 17);
+  --md-default-bg-color--light: rgb(26, 25, 25);
 
-  /* Dark mode text colors */
+  /* --- Text Colors --- */
   --md-default-fg-color: rgb(158, 147, 133);
   --md-typeset-color: rgb(158, 147, 133);
 }
