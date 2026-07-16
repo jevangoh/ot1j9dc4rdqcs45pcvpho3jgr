@@ -14,9 +14,9 @@
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
 
-  --md-admonition-color--note: rgba(18, 17, 17, 0.7);
+  /* --md-admonition-color--note: rgba(18, 17, 17, 0.7);
   --md-admonition-color--warning: 255, 140, 0;
-  --md-admonition-color--danger: 255, 99, 71;
+  --md-admonition-color--danger: 255, 99, 71; */
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -34,4 +34,35 @@
 [data-md-color-scheme="slate"] .md-typeset h5,
 [data-md-color-scheme="slate"] .md-typeset h6 {
   color: rgb(158, 147, 133);
+}
+
+/* Targeting the Slate (Dark) Theme only */
+[data-md-color-scheme="slate"] {
+  /* Title background color / collapsible summary background */
+  .md-typeset .note > .admonition-title,
+  .md-typeset .note > summary {
+    background-color: rgba(18, 17, 17, 0.7) !important; /* Tinted background */
+  }
+
+  /* Icon color inside the title */
+  .md-typeset .note > .admonition-title::before,
+  .md-typeset .note > summary::before {
+    background-color: #38bdf8;
+  }
+
+  /* --- Customize the "warning" Admonition --- */
+  .md-typeset .admonition.warning,
+  .md-typeset details.warning {
+    border-color: #f59e0b; /* Amber border */
+  }
+
+  .md-typeset .warning > .admonition-title,
+  .md-typeset .warning > summary {
+    background-color: rgba(245, 158, 11, 0.1) !important;
+  }
+
+  .md-typeset .warning > .admonition-title::before,
+  .md-typeset .warning > summary::before {
+    background-color: #f59e0b;
+  }
 }
