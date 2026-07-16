@@ -5,7 +5,8 @@
   --md-primary-fg-color--dark: rgb(10, 9, 9);
 
   /* --- Accent --- */
-  --md-accent-fg-color: rgb(118, 79, 40);
+  /* --md-accent-fg-color: rgb(118, 79, 40); */
+  --md-accent-fg-color: rgb(158, 147, 133);
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 
   /* --- Text --- */
