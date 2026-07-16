@@ -9,9 +9,13 @@
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 
   /* --- Text --- */
-  --md-default-fg-color: rgb(158, 147, 133);
+  /* --md-default-fg-color: rgb(158, 147, 133);
   --md-typeset-color: rgb(158, 147, 133);
-  --md-typeset-headline-color: rgb(158, 147, 133);
+  --md-typeset-headline-color: rgb(158, 147, 133); */
+
+  --md-default-fg-color: rgb(131, 132, 138);
+  --md-typeset-color: rgb(131, 132, 138);
+  --md-typeset-headline-color: rgb(131, 132, 138);
 }
 
 [data-md-color-scheme="slate"] .md-header {
@@ -27,5 +31,5 @@
 [data-md-color-scheme="slate"] .md-typeset h4,
 [data-md-color-scheme="slate"] .md-typeset h5,
 [data-md-color-scheme="slate"] .md-typeset h6 {
-  color: rgb(118, 79, 40);
+  color: rgb(158, 147, 133);
 }
