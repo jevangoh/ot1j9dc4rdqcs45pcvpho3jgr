@@ -1,6 +1,7 @@
 [data-md-color-scheme="slate"] {
   /* --- Primary --- */
-  --md-primary-fg-color: rgb(48, 36, 24);
+  /* --md-primary-fg-color: rgb(48, 36, 24); */
+  --md-primary-fg-color: rgb(158, 147, 133);
   --md-primary-fg-color--light: rgb(58, 56, 55);
   --md-primary-fg-color--dark: rgb(10, 9, 9);
 
@@ -34,5 +35,5 @@
 [data-md-color-scheme="slate"] .md-typeset h5,
 [data-md-color-scheme="slate"] .md-typeset h6 {
   /* Swap this with whatever color you want your titles to be */
-  color: rgb(158, 147, 133);
+  color: rgb(118, 79, 40);
 }
