@@ -43,11 +43,11 @@
   background-color: rgba(18, 17, 17, 0.7) !important;
   --md-admonition-bg: rgba(18, 17, 17, 0.7) !important;
 }
-
+/* 
 [data-md-color-scheme="slate"] .md-typeset .note > .admonition-title,
 [data-md-color-scheme="slate"] .md-typeset .note > summary {
   background-color: rgba(18, 17, 17, 0.7) !important;
-}
+} */
 
 [data-md-color-scheme="slate"] .md-typeset .note > .admonition-title::before,
 [data-md-color-scheme="slate"] .md-typeset .note > summary::before {
