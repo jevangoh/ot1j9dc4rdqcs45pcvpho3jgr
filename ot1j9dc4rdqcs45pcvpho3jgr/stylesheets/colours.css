@@ -39,16 +39,18 @@
 /* Targeting the Slate (Dark) Theme only */
 [data-md-color-scheme="slate"] {
   /* --- Customize the "note" Admonition --- */
+
   .md-typeset .admonition.note,
   .md-typeset details.note {
-    border-color: rgba(18, 17, 17, 0.7); /* Soft blue border */
+    border-color: rgba(18, 17, 17, 0.7) !important; /* Soft blue border */
   }
 
   /* Title background color / collapsible summary background */
+  /*
   .md-typeset .note > .admonition-title,
   .md-typeset .note > summary {
-    background-color: rgba(18, 17, 17, 0.7) !important; /* Tinted background */
-  }
+    background-color: rgba(18, 17, 17, 0.7) !important;
+  }*/
 
   /* Icon color inside the title */
   .md-typeset .note > .admonition-title::before,
