@@ -39,9 +39,9 @@
 /* --- Customize the "note" Admonition for Slate Theme --- */
 [data-md-color-scheme="default"] .md-typeset .admonition.note,
 [data-md-color-scheme="default"] .md-typeset details.note {
-  border-color: rgba(18, 17, 17, 0.7) !important;
-  background-color: rgba(18, 17, 17, 0.7) !important;
-  --md-admonition-bg: rgba(18, 17, 17, 0.7) !important;
+  border-color: rgba(11, 12, 15, 0.15) !important;
+  background-color: rgba(11, 12, 15, 0.15) !important;
+  --md-admonition-bg: rgba(11, 12, 15, 0.15) !important;
 }
 
 [data-md-color-scheme="default"] .md-typeset .note > .admonition-title,
