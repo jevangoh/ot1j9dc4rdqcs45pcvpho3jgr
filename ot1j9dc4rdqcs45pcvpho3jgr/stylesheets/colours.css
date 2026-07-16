@@ -14,9 +14,9 @@
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
 
-  --md-admonition-color--note: rgb(0, 191, 255);
-  --md-admonition-color--warning: rgb(255, 140, 0);
-  --md-admonition-color--danger: rgb(255, 99, 71);
+  --md-admonition-color--note: 0, 191, 255;
+  --md-admonition-color--warning: 255, 140, 0;
+  --md-admonition-color--danger: 255, 99, 71;
 }
 
 [data-md-color-scheme="slate"] .md-header {
