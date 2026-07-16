@@ -7,13 +7,9 @@
   --md-accent-fg-color: rgb(118, 79, 40);
   --md-accent-fg-color--transparent: rgba(118, 79, 40, 0.15);
 
-  /* --- Canvas Backgrounds --- */
-  /* --md-default-bg-color: rgb(18, 17, 17); */
-  --md-default-bg-color--light: rgb(26, 25, 25);
-
   /* --- Text Colors --- */
   --md-default-fg-color: rgb(158, 147, 133);
-  --md-typeset-color: rgb(158, 147, 133);
+  --md-typeset-color: rgb(118, 79, 40);
   --md-typeset-headline-color: rgb(158, 147, 133);
 }
 
