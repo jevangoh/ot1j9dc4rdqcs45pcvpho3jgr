@@ -15,9 +15,9 @@
   --md-typeset-headline-color: rgb(131, 132, 138);
 
   /* --- Note Box --- */
-  --md-admonition-fg-color--note: rgba(131, 132, 138, 0.5);
-  --md-admonition-bg-color--note: rgba(131, 132, 138, 0.5);
-  --md-admonition-title-color--note: rgba(131, 132, 138, 0.5);
+  --md-admonition-fg-color--note: rgba(131, 132, 138, 0.1);
+  --md-admonition-bg-color--note: rgba(131, 132, 138, 0.1);
+  --md-admonition-title-color--note: rgba(131, 132, 138, 0.1);
 }
 
 [data-md-color-scheme="slate"] .md-header {
