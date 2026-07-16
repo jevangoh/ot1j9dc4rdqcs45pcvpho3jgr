@@ -13,16 +13,15 @@
   --md-default-fg-color: rgb(131, 132, 138);
   --md-typeset-color: rgb(131, 132, 138);
   --md-typeset-headline-color: rgb(131, 132, 138);
+}
 
-  /* --md-admonition-color--note: rgba(18, 17, 17, 0.7);
-  --md-admonition-color--warning: 255, 140, 0;
-  --md-admonition-color--danger: 255, 99, 71; */
+[data-md-color-scheme="slate"] .md-header__topic {
+  color: rgb(158, 147, 133);
 }
 
 [data-md-color-scheme="slate"] .md-header {
   /* background-color: rgba(18, 17, 17, 0.7); */
   background-color: rgba(118, 79, 40, 0.15);
-  color: rgb(158, 147, 133);
 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px); /* Safari support */

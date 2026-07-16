@@ -10,7 +10,10 @@ language = "en"
 repo_url = "https://github.com/jevangoh/ot1j9dc4rdqcs45pcvpho3jgr"
 edit_uri = "tree/main/ot1j9dc4rdqcs45pcvpho3jgr/"
 
-extra_css = ["stylesheets/colours.css"]
+extra_css = [
+    "stylesheets/dark.css",
+    "stylesheets/light.css"
+]
 
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.gfm_admonition]
