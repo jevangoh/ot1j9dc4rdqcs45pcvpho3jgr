@@ -52,6 +52,7 @@
 [data-md-color-scheme="slate"] .md-typeset .note > .admonition-title::before,
 [data-md-color-scheme="slate"] .md-typeset .note > summary::before {
   background-color: rgb(158, 147, 133) !important;
+  color: rgb(158, 147, 133) !important;
 }
 
 /* --- Customize the "warning" Admonition for Slate Theme --- */
