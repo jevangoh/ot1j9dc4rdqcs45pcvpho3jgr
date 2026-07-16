@@ -22,8 +22,8 @@
 }
 
 [data-md-color-scheme="default"] .md-header {
-  background-color: rgba(11, 12, 15, 0.15);
-  color: rgb(118, 79, 40);
+  background-color: rgba(118, 79, 40, 0.15);
+  color: rgb(11, 12, 15);
 
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px); /* Safari support */
